@@ -26,6 +26,7 @@ section.success .introduction {
 }
 
 #portfolio {
+  padding-top: 50px;
 	padding-bottom: 50px;
 	color: #2C3E50;
 }
@@ -33,7 +34,7 @@ header {
 	background-image: url("../img/space2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 header.container {
