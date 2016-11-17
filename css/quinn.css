@@ -4,12 +4,12 @@ section.success, header {
 
 section.success {
 	color: #2C3E50;
-	padding-top: 50px;
+	padding-top: 25px;
 
 }
 
 section.success  p {
-	text-indent: 50px;
+	text-indent: 25px;
 	font-size: 1.75em
 }
 
@@ -26,15 +26,15 @@ section.success .introduction {
 }
 
 #portfolio {
-  padding-top: 50px;
-	padding-bottom: 50px;
+  padding-top: 25px;
+	padding-bottom: 25px;
 	color: #2C3E50;
 }
 header {
 	background-image: url("../img/space2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 header.container {
@@ -69,12 +69,23 @@ h1, h2, h3, h4, h5, h6 {
 	border: 7px solid white;*/
 }
 
+
+#mainNav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#caseButton {
+  margin-top: 10px;
+}
+
 .case {
 	background-color: white;
 	border-color: #2C3E50;
 	border-width: 3px;
 	color: #2C3E50;
 }
+
 .bold {
 	font-weight: bold;
 }

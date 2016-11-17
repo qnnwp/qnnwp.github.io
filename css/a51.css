@@ -1,0 +1,58 @@
+#about {
+	padding-top: 25px;
+}
+.bold {
+	/*background-color: #ff9900;*/
+	text-decoration: underline;
+}
+li {
+	-webkit-column-break-inside: avoid;
+}
+
+#nextProj {
+	position:fixed;
+	top: 50%;
+	left: 95%;
+}
+
+.nextProj a {
+
+}
+.nextProj img{
+	margin: 0 auto;
+}
+
+.nextProj p {
+	font-size: 12pt;
+}
+
+.box {
+	border-style: solid;
+	border-color: #2C3E50;
+	border-width: 3px;
+	color: #2C3E50;
+	border-radius: 50px;
+}
+
+.flex {
+	display: flex;
+}
+
+h2 {
+	margin: 0 auto;
+	text-align: center;
+}
+#intro {
+	/*background-color: #ff9900;*/
+}
+
+#projectIntro {
+	text-align: center;
+	padding-top: 75px;
+	background-image: url("../img/space2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
