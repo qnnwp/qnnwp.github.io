@@ -7,7 +7,7 @@
         
         //set the nav to be active if clicked on from a different page
         if(id.localeCompare("portfolio")==0) {
-            $(a).addClass("active");
+            $("#pNav").addClass("active");
             $("body").scrollTop($('#'+id).offset().top);
         }else if(id.localeCompare("about")) {
             $(a).addClass("active");
