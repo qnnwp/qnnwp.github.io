@@ -34,6 +34,7 @@ header {
 	background-image: url("../img/space2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+  opacity: 60%;
   margin-bottom: 25px;
 }
 
@@ -41,6 +42,28 @@ header.container {
 	padding-bottom: 0px;
 }
 
+.fa {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: -.45em;
+  padding:0px 5px 0px 5px;*/
+}
+
+.star {
+  margin: 0px auto 5px;
+  min-height: 40px;
+}
+hr.star-main {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  width: 105px;
+  font-family: FontAwesome;
+  display:inline-block;
+  font-size: 2em;
+  /*padding: 0 0.25em;*/
+}
 hr.star-light:after {
   background-color: transparent;
   color: white;
@@ -77,6 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #caseButton {
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .case {
