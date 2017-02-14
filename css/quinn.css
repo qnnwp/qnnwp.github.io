@@ -42,7 +42,7 @@ header.container {
 	padding-bottom: 0px;
 }
 
-.fa {
+.fa-star {
   text-align: center;
   display: inline-block;
   position: relative;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   text-align: center;
   top: 50%;
-  /*margin-top: -12px;*/
+  margin-top: -12px;
   color: white;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
