@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  /*margin-top: -12px;*/
+  margin-top: -12px;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
