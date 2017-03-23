@@ -10,7 +10,7 @@ section.success {
 
 section.success  p {
 	text-indent: 25px;
-	font-size: 1.75em
+	font-size: 1.75em;
 }
 
 section.success li {
@@ -119,8 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
+  /*margin: 0 0 15px;*/
+  /*right: 0;*/
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -205,5 +205,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Show the dropdown menu on hover */
 #portfolioNav:hover .dropdown-content {
     display: block;
+}
+
+div .image-header {
+  font-size: 1.75em;
 }
 
