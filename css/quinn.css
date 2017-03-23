@@ -54,6 +54,7 @@ header.container {
   margin: 0px auto 5px;
   min-height: 40px;
 }
+
 hr.star-main {
   padding: 0;
   border: none;
@@ -200,11 +201,14 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 
-.dropdown-content a:hover {color: #ff9900}
 
-/* Show the dropdown menu on hover */
-#portfolioNav:hover .dropdown-content {
-    display: block;
+  .dropdown-content a:hover {color: #ff9900}
+
+@media (min-width: 767px) {
+  /* Show the dropdown menu on hover */
+  #portfolioNav:hover .dropdown-content {
+      display: block;
+  }
 }
 
 div .image-header {
