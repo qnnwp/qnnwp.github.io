@@ -200,9 +200,6 @@ section.success {
   section.first {
     padding-top: 75px;
   }
-  .dropdown-content {
-    display:none;
-  }
 }
 #portfolio .portfolio-item {
   /*margin: 0 0 15px;*/
@@ -249,12 +246,12 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
-@media (min-width: 767px) {
+
   #portfolio .portfolio-item {
     /*margin: 0 0 30px;*/
     margin-bottom: 30px;
   }
-}
+
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
